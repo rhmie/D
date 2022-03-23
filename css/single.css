@@ -1,0 +1,183 @@
+.container {
+	border-left: dotted 15px #d8d8d8;
+	background: url(../images/sun_gray.png) no-repeat right -90px top -100px, 
+  url(../images/sun_gray.png) no-repeat right -90px bottom -90px,
+  url(../images/sun_gray.png) no-repeat left -130px top 590px;
+}
+
+.input-group-text {
+	background: #eee;
+	color: #7b7b7b;
+	border: 1px solid #eee;
+}
+
+.btn-light {
+	background: #eee !important;
+	border-left:1px solid #dcdcdc;
+}
+
+.carousel-item {
+	border: 8px solid white;
+  text-align: center;
+}
+
+
+#paperclip {
+	position: absolute;
+	top: -30px;
+	left: -30px;
+	z-index: 5;
+}
+
+.badge {
+	background: #eeeeee;
+	color: #a2a2a2 !important;
+	font-weight: 400;
+	font-size: 90%;
+}
+
+.btn-share {
+	background-color: #eeeeee;
+}
+
+.btn-share i {
+	color: #a2a2a2;
+}
+
+.map-container{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+}
+.map-container iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+#gotop {
+  position: fixed;
+  right: 20px;
+  bottom: 90px;
+}
+
+.in_stock {
+  font-size: .8rem;
+  border: 1px solid orange;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: orange;
+}
+
+
+#infobox img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+#infobox p {
+    /*padding: 0 !important;*/
+    width: auto !important;
+}
+
+#infobox h1, #infobox h2, #infobox h3, #infobox h4, #infobox h5, #infobox h6 {
+    width: auto !important;
+}
+
+/*Fb Comments Width Fix*/
+.fb_iframe_widget_fluid_desktop, .fb_iframe_widget_fluid_desktop span, .fb_iframe_widget_fluid_desktop iframe {
+            max-width: 100% !important;
+            width: 100% !important;
+ }
+
+ .fb_dialog {
+   position: absolute;
+   left:  -2000px;
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .w-sm-100 {
+    width: 100% !important;
+  }
+
+  .w-sm-75 {
+    width: 75% !important;
+  }
+
+  .w-sm-50 {
+    width: 50% !important;
+  }
+
+  .w-sm-25 {
+    width: 25% !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  .w-md-100 {
+    width: 100% !important;
+  }
+
+  .w-md-75 {
+    width: 75% !important;
+  }
+
+  .w-md-50 {
+    width: 50% !important;
+  }
+
+  .w-md-25 {
+    width: 25% !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .w-lg-100 {
+    width: 100% !important;
+  }
+
+  .w-lg-75 {
+    width: 75% !important;
+  }
+
+  .w-lg-50 {
+    width: 50% !important;
+  }
+
+  .w-lg-25 {
+    width: 25% !important;
+  }
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1140px) {
+
+  .w-xl-100 {
+    width: 100% !important;
+  }
+
+  .w-xl-75 {
+    width: 75% !important;
+  }
+
+  .w-xl-50 {
+    width: 50% !important;
+  }
+
+  .w-xl-25 {
+    width: 25% !important;
+  }
+
+}

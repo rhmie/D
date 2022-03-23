@@ -1,0 +1,149 @@
+body {
+    background-color: white !important;
+}
+
+/*side menu*/
+.side-nav {
+    background-color: white !important;
+}
+
+/*導覽列*/
+.nav_background {
+    background: #ff7500;
+}
+
+.nav_text {
+    color: white !important;
+}
+
+.navbar.navbar-dark form .md-form input {
+    border-bottom: 1px solid white;
+}
+
+.dropdown-item:hover {
+    background-color: #ff7500 !important;
+}
+
+/*下拉清單文字*/
+.dropdown .dropdown-menu .dropdown-item:hover {
+    color: white !important;
+}
+
+
+.nav_text::placeholder {
+    color: white !important;
+    opacity: 1;
+}
+
+
+/*主標題*/
+.clabel {
+    color: #ff7500;
+}
+
+/*邊匡*/
+.title_col {
+    border-left: solid 4px #ff7500;
+}
+
+/*副標題*/
+.elabel {
+    color: #212529;
+}
+
+/*按鈕色*/
+.btn-blue-grey {
+    background-color: #ff7500 !important;
+}
+
+/*focus*/
+.btn-blue-grey:not([disabled]):not(.disabled):active, .btn-blue-grey:not([disabled]):not(.disabled).active {
+    background-color:  #ff7500 !important;
+    filter: brightness(0.8);
+}
+
+/*dropdown*/
+.btn-blue-grey.dropdown-toggle {
+    background-color: #ff7500 !important;
+}
+
+.btn-blue-grey.dropdown-toggle:hover {
+    background-color:  #ff7500 !important;
+    filter: brightness(0.8);
+}
+
+.btn-blue-grey.dropdown-toggle:focus {
+    background-color:  #ff7500 !important;
+    filter: brightness(0.8);
+}
+
+
+/*輪播按鈕*/
+.carousel-multi-item .carousel-indicators li {
+    background-color: #ff7500;
+}
+
+.carousel-multi-item .carousel-indicators .active {
+    background-color: #ff7500;
+}
+
+/*按鈕文字*/
+.btn-blue-grey {
+    color: white;
+}
+
+/*分頁按鈕*/
+.pagination .page-item.active .page-link {
+    background-color: #ff7500;
+}
+
+
+/*目錄色*/
+.list-group-item-color {
+    color: #ff7500;
+}
+
+/*數量色*/
+.list-badge {
+    background-color: #8d8d8d;
+}
+
+/*footer*/
+.page-footer {
+    background-color: #ff7500;
+}
+
+.footer-text {
+    color: white !important;
+}
+
+/*card*/
+.card-back {
+    background-color: white;
+}
+
+/*商品名*/
+.prodname {
+    color: #636363;
+}
+
+/*特價*/
+.sprice-text {
+    color: red;
+}
+
+/*原價*/
+.price-text {
+    color: #9e9e9e;
+}
+
+/*大螢幕導覽列*/
+.sub_nav {
+    background: rgba(255, 255, 255, 0.5);
+    color: #2e2e2e;
+}
+
+/*商品頁背景*/
+#pmodal .container {
+    background-color: white;
+}
